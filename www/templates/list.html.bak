@@ -1,0 +1,17 @@
+<div class="list">
+ <a class="button icon-right ion-chevron-right button-dark" ui-sref="history">Back</a>
+ <a class="button icon-right ion-chevron-right button-dark" ui-sref="Search">Next</a>
+    <a ng-repeat="list in datalist" class="item item-thumbnail-left">
+      <img src="{{list.pic}}">
+	  
+      <h2>{{list.fname}}</h2>
+      <p>{{list.lname}}</p>
+    </a>
+
+  
+   
+
+</div>
+</center>
+  </form>
+	</div>
